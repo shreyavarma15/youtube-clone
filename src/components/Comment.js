@@ -1,7 +1,7 @@
 const Comment = ({ data }) => {
   const { name, text } = data;
   return (
-    <div className="py-3 my-4 shadow-md rounded-lg">
+    <div className="py-3 my-4 ml-4 shadow-md rounded-lg">
       <div className="flex">
         <img
           alt="user"
